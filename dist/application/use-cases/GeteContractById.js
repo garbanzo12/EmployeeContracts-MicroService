@@ -1,4 +1,4 @@
-//Caso de uso de obtener una companie por su Id
+//Caso de uso de obtener un employeeContract por su Id
 export class GeteContractsById {
   constructor(eContractRepositoryById) {
     this.eContractRepositoryById = eContractRepositoryById;

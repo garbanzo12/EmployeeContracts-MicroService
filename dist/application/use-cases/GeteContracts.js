@@ -1,4 +1,4 @@
-//Caso de uso de obtener todas las companies
+//Caso de uso de obtener todas los employeeContract
 export class GeteContracts {
   constructor(eContractsRepositoryFindAll) {
     this.eContractsRepositoryFindAll = eContractsRepositoryFindAll;

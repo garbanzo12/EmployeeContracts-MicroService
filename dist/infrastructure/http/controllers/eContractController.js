@@ -11,7 +11,9 @@ export class eContractController {
     });
     /* Ejemplos de este log
       ([hora] [icono] [Tipo petición] [endpoint] - [Respuesta] )
-      pendiendinte
+      [11:09:13 a. m.] ✅ GET /eContract/23873 - Petición exitosa 
+      [11:09:18 a. m.] ✅ GET /eContract - Petición exitosa {"count":23868}
+      [11:11:15 a. m.] ❌ GET /eContract/9999999 - No encontrado 
     */
     this.getAll = async (req, res) => {
       try {

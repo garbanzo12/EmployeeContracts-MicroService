@@ -1,4 +1,4 @@
-//Especificación de lso repos
+//Especificación de los repos
 export class eContractRepositoryFindAll {
   findAll() {}
 }
